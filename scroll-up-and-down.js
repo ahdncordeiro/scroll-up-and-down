@@ -1,6 +1,6 @@
 function scrollUp() {
   $("html, body").animate({ scrollTop: document.body },
-    100000,
+    50000,
     function() {
       scrollDown();
   });
@@ -8,7 +8,7 @@ function scrollUp() {
 
 function scrollDown() {
   $("html, body").animate({ scrollTop: document.body.scrollHeight },
-    100000,
+    50000,
     function() {
       scrollUp();
   });
