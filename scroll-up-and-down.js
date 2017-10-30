@@ -1,5 +1,5 @@
 function scrollUp() {
-  $("html, body").animate(
+  $("html").animate(
     {
       scrollTop: 0
     },
@@ -11,7 +11,7 @@ function scrollUp() {
 }
 
 function scrollDown() {
-  $("html, body").animate(
+  $("html").animate(
     {
       scrollTop: document.body.scrollHeight
     },
